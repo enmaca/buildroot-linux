@@ -4,7 +4,7 @@ XIOS_SITE = git://github.com/Pivosgroup/skin.pivos.git
 XIOS_INSTALL_STAGING = YES
 XIOS_INSTALL_TARGET = YES
 XIOS_DEPENDENCIES = xbmc
-TEXTURE_PACKER=$(XBMC_DIR)/tools/TexturePacker/TexturePacker
+TEXTURE_PACKER=$(XBMC_DIR)/tools/TexturePacker/STexturePacker
 
 define XIOS_BUILD_CMDS
 	$(TEXTURE_PACKER) -use_none -i $(@D)/media -o $(@D)/media/Textures.xbt

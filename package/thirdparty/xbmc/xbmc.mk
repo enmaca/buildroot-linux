@@ -4,7 +4,7 @@
 #
 #################################################################################
 
-XBMC_VERSION = bef8dad9f6a8b9e2a7af8974eec4fe25743505cc
+XBMC_VERSION = 27b023720ebb521c8f8878b1c92b2e682ea3a6ea
 XBMC_SITE_METHOD = git
 XBMC_SITE = git://github.com/enmaca/xbmc.git
 XBMC_INSTALL_STAGING = YES
