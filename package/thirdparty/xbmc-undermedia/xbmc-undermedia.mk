@@ -12,7 +12,7 @@ define XBMC_UNDERMEDIA_INSTALL_STAGING_CMDS
 endef
 
 define XBMC_UNDERMEDIA_INSTALL_TARGET_CMDS
-	mkdir -p $(STAGING_DIR)/usr/share/xbmc/addons/repository.undermedia.addons
+	mkdir -p $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons
 	cp -rf $(@D)/repository.undermedia.addons/* $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
 endef
 
