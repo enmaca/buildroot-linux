@@ -1,0 +1,3 @@
+config BR2_PACKAGE_REPOSITORY_UNDERMEDIA_ADDONS
+depends on BR2_PACKAGE_XBMC
+        bool "XBMC Repository Undermedia Addons"
