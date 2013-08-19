@@ -16,4 +16,4 @@ define REPOSITORY_UNDERMEDIA_ADDONS_INSTALL_TARGET_CMDS
 	cp -rf $(@D)/repository.undermedia.addons/* $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
 endef
 
-$(eval $(call GENTARGETS,package/thirdparty,xbmc-undermedia))
+$(eval $(call GENTARGETS,package/thirdparty,repository_undermedia_addons))
