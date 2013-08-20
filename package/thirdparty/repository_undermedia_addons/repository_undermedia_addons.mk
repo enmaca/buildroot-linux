@@ -15,7 +15,10 @@ endef
 
 define REPOSITORY_UNDERMEDIA_ADDONS_INSTALL_TARGET_CMDS
 	mkdir -p $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons
-	cp -rf $(@D)/repository.undermedia.addons/* $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/addon.xml $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/changelog.txt $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/icon.png $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/LICENSE.txt $(TARGET_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
 endef
 
 $(eval $(call GENTARGETS,package/thirdparty,repository_undermedia_addons))
