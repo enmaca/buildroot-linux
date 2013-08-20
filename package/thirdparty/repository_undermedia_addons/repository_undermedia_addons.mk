@@ -7,7 +7,10 @@ REPOSITORY_UNDERMEDIA_ADDONS_DEPENDENCIES = xbmc
 
 define REPOSITORY_UNDERMEDIA_ADDONS_INSTALL_STAGING_CMDS
 	mkdir -p $(STAGING_DIR)/usr/share/xbmc/addons/repository.undermedia.addons
-	cp -rf $(@D)/repository.undermedia.addons/* $(STAGING_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/addon.xml $(STAGING_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/changelog.txt $(STAGING_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/icon.png $(STAGING_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
+	cp -rf $(@D)/LICENSE.txt $(STAGING_DIR)/usr/share/xbmc/addons/repository.undermedia.addons/
 endef
 
 define REPOSITORY_UNDERMEDIA_ADDONS_INSTALL_TARGET_CMDS
