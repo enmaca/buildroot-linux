@@ -1,0 +1,3 @@
+config BR2_PACKAGE_PLUGIN_BROWSER_UNDERMEDIA
+depends on BR2_PACKAGE_XBMC
+        bool "XBMC Undermedia Browser"

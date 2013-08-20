@@ -1,0 +1,3 @@
+config BR2_PACKAGE_SCRIPT_MODULE_UNDERMEDIA
+depends on BR2_PACKAGE_XBMC
+        bool "XBMC Script Module Undermedia"

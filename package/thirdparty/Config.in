@@ -27,7 +27,10 @@ source "package/thirdparty/yajl/Config.in"
 source "package/thirdparty/xbmc/Config.in"
 source "package/thirdparty/xbmcpvr/Config.in"
 source "package/thirdparty/xios-skin/Config.in"
+source "package/thirdparty/plugin_browser_undermedia/Config.in"
 source "package/thirdparty/repository_undermedia_addons/Config.in"
+source "package/thirdparty/script_module_xbmcswift2/Config.in"
+source "package/thirdparty/script_module_undermedia/Config.in"
 source "package/thirdparty/boblight/Config.in"
 
 endmenu
