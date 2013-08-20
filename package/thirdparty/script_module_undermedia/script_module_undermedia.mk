@@ -9,7 +9,6 @@ define SCRIPT_MODULE_UNDERMEDIA_INSTALL_STAGING_CMDS
 	mkdir -p $(STAGING_DIR)/usr/share/xbmc/addons/script.module.undermedia/resources
 	cp -rf $(@D)/addon.xml $(STAGING_DIR)/usr/share/xbmc/addons/script.module.undermedia/
 	cp -rf $(@D)/changelog.txt $(STAGING_DIR)/usr/share/xbmc/addons/script.module.undermedia/
-	cp -rf $(@D)/icon.png $(STAGING_DIR)/usr/share/xbmc/addons/script.module.undermedia/
 	cp -rf $(@D)/README $(STAGING_DIR)/usr/share/xbmc/addons/script.module.undermedia/
 	cp -rf $(@D)/lib/undermedia/__init__.py $(STAGING_DIR)/usr/share/xbmc/addons/script.module.undermedia/lib/undermedia/
 	cp -rf $(@D)/lib/undermedia/api.py $(STAGING_DIR)/usr/share/xbmc/addons/script.module.undermedia/lib/undermedia/
@@ -22,7 +21,6 @@ define SCRIPT_MODULE_UNDERMEDIA_INSTALL_TARGET_CMDS
 	mkdir -p $(TARGET_DIR)/usr/share/xbmc/addons/script.module.undermedia/resources
 	cp -rf $(@D)/addon.xml $(TARGET_DIR)/usr/share/xbmc/addons/script.module.undermedia/
 	cp -rf $(@D)/changelog.txt $(TARGET_DIR)/usr/share/xbmc/addons/script.module.undermedia/
-	cp -rf $(@D)/icon.png $(TARGET_DIR)/usr/share/xbmc/addons/script.module.undermedia/
 	cp -rf $(@D)/README $(TARGET_DIR)/usr/share/xbmc/addons/script.module.undermedia/
 	cp -rf $(@D)/lib/undermedia/__init__.py $(TARGET_DIR)/usr/share/xbmc/addons/script.module.undermedia/lib/undermedia/
 	cp -rf $(@D)/lib/undermedia/api.py $(TARGET_DIR)/usr/share/xbmc/addons/script.module.undermedia/lib/undermedia/
