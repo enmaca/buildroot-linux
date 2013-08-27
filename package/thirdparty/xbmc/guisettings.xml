@@ -40,8 +40,7 @@
 		<setting type="bool" name="skin.confluence.ShowBackgroundVideo">false</setting>
 		<setting type="bool" name="skin.confluence.ShowBackgroundVis">false</setting>
 		<setting type="bool" name="skin.confluence.HomepageHideRecentlyAddedVideo">false</setting>
-		<setting type="bool"
-			name="skin.confluence.HomepageHideRecentlyAddedAlbums">false</setting>
+		<setting type="bool" name="skin.confluence.HomepageHideRecentlyAddedAlbums">false</setting>
 		<setting type="bool" name="skin.confluence.homepageWeatherinfo">false</setting>
 		<setting type="bool" name="skin.confluence.homepageMusicinfo">false</setting>
 		<setting type="bool" name="skin.confluence.homepageVideoinfo">false</setting>
